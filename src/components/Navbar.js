@@ -19,19 +19,19 @@ const Navbar = () => {
                                     <ul className="navbar-nav">
                                         <li className="nav-item dropdown">
                                             <NavLink className="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                Dropdown
+                                                Category
                                             </NavLink>
-                                            <ul className="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                                                <li><NavLink className="dropdown-item" href="#">Action</NavLink></li>
-                                                <li><NavLink className="dropdown-item" href="#">Another action</NavLink></li>
-                                                <li><NavLink className="dropdown-item" href="#">Something else here</NavLink></li>
+                                            <ul className="dropdown-menu " aria-labelledby="navbarDarkDropdownMenuLink">
+                                                <li><NavLink className="dropdown-item" to="/grocery">Grocery</NavLink></li>
+                                                <li><NavLink className="dropdown-item" to="/appliances">Appliances</NavLink></li>
+                                                <li><NavLink className="dropdown-item" to="/beautyProducts">Beauty Products</NavLink></li>
                                             </ul>
                                         </li>
                                     </ul>
                                 </div>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link disabled" to="#" tabindex="-1" aria-disabled="true">Disabled</NavLink>
+                                <NavLink className="nav-link disabled" to="#signup" tabindex="-1" aria-disabled="true">Login/Signup</NavLink>
                             </li>
                         </ul>
                         <form className="d-flex">
