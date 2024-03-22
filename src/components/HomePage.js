@@ -1,7 +1,7 @@
 const HomePage = () =>{
     return(
         <>
-            This is HomePage
+           <h2>This is HomePage</h2> 
         </>
     )
 }
